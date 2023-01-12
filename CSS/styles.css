@@ -21,6 +21,7 @@
 
     /*icon*/
     --icon-bg-cl:rgba(255, 255, 255, 0.1);
+    --icon-b-cl:#31D0AA;
 
 }
 
@@ -487,7 +488,7 @@ color: var( --footer-txt-cl);
 
 .socials-link-footer:hover {
     color: var(--light-txt-cl);
-    background-color: var(--blue-bg-cl);
+    background-color: var(--icon-b-cl);
 }
 
 /*PORTFOLIO*/
@@ -543,9 +544,8 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 
 .list-portfolio{
     border: 1px solid var(--border-color);
-    /* width: calc((100% - 48px) / 3); */
-    width: 360px;
-    height: 420px;
+     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+   
 }
 .list-portfolio:hover,
 .list-portfolio:focus {
