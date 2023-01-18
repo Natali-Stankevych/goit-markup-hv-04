@@ -217,6 +217,7 @@ background-color: var(--hover-bg-cl);
 
 .team-list-features {
     display: flex;
+    flex-basis: calc((100% - 3 * 24px) / 4);
     gap: 24px;
 }
 
@@ -245,6 +246,7 @@ background-color:var(--lignt-bg-cl);
 }
 .features-list {
     display: flex;
+    flex-basis: calc((100% - 3 * 24px) / 4);
     gap: 24px;
     
 }
@@ -544,7 +546,7 @@ border: 1px solid var(--border-hed-cl);
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 360px;
+    flex-basis: calc((100% - 48px) / 3);
     gap: 24px;
     
 }
@@ -571,6 +573,7 @@ border: 1px solid var(--border-hed-cl);
 }
 .txt-portfolio{
    border: 1px solid var(--border-color); 
+   border-top: 0px;
     padding-left: 16px;
 }
 .link-portfolio:hover,
